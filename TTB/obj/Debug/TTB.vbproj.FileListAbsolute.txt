@@ -1,0 +1,12 @@
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\obj\Debug\TTB.vbproj.AssemblyReference.cache
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\obj\Debug\TTB.Form1.resources
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\obj\Debug\TTB.Resources.resources
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\obj\Debug\TTB.vbproj.GenerateResource.cache
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\obj\Debug\TTB.vbproj.CoreCompileInputs.cache
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\bin\Debug\TTB.exe.config
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\bin\Debug\TTB.exe
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\bin\Debug\TTB.pdb
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\bin\Debug\TTB.xml
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\obj\Debug\TTB.exe
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\obj\Debug\TTB.xml
+C:\Current_Development\Transaction-tools-for-Bitcoin\TTB\obj\Debug\TTB.pdb

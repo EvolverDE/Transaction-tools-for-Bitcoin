@@ -1,0 +1,113 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TTB
+</name>
+</assembly>
+<members>
+<member name="T:TTB.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:TTB.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:TTB.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:TTB.My.Resources.Resources.encrypt">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+</summary>
+</member>
+<member name="P:TTB.My.Resources.Resources.status_encrypted">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:TTB.Form1.GetLVColNameFromSubItem(System.Windows.Forms.ListView@,System.String,System.Windows.Forms.ListViewItem,System.Int32)">
+ <summary>
+ Von einer ListView das subitem aus dem item lesen
+ </summary>
+ <param name="LV">Die ListView, aus der gelesen werden soll</param>
+ <param name="ColName">Der Spaltenname, aus dem gelesen werden soll</param>
+ <param name="LVItem">Die Zeile bzw. das item aus dem gelesen werden soll</param>
+ <param name="index">Alternativ das item an index stelle in der ListView</param>
+ <returns>Vorzugsweise einen String, andernfalls den index der Spalte</returns>
+ <remarks></remarks>
+</member>
+<member name="M:TTB.ClsBitcoinTransaction.CreateOutput(System.String,System.Double)">
+ <summary>
+ Create a Standard Output
+ </summary>
+ <param name="RecipientAddress">the Address of the recipient address</param>
+ <param name="Amount">the amount in BTC</param>
+</member>
+<member name="M:TTB.ClsBitcoinTransaction.CreateOutput(System.String,System.String,System.Double)">
+ <summary>
+ Create a ChainSwapHash Output
+ </summary>
+ <param name="ChainSwapHash">the chain swap hash to redeem the transaction output</param>
+ <param name="RecipientAddress">the Address of the recipient address</param>
+ <param name="Amount">the amount in BTC</param>
+</member>
+<member name="M:TTB.ClsBitcoinTransaction.CreateOutput(System.String,System.Double,System.Int32)">
+ <summary>
+ Create a LockTime Output
+ </summary>
+ <param name="RecipientAddress">the Address of the recipient address</param>
+ <param name="Amount">the amount in BTC</param>
+ <param name="ScriptLockTime">the optional LockTime in Blocks as integer</param>
+</member>
+<member name="M:TTB.ClsBitcoinTransaction.CreateOutput(System.String,System.String,System.String,System.Double,System.Int32)">
+ <summary>
+ Create a ChainSwapHash Output with LockTime for payback option when the time is up
+ </summary>
+ <param name="RecipientAddress">the Address of the recipient address</param>
+ <param name="ChainSwapHash">the chain swap hash to redeem the transaction output</param>
+ <param name="SenderAddress">the Address of the sender address</param>
+ <param name="Amount">the amount in BTC</param>
+ <param name="ScriptLockTime">the optional LockTime in Blocks as integer</param>
+</member>
+<member name="M:TTB.ClsOutput.#ctor(System.String,System.Double,System.Boolean)">
+ <summary>
+ Create a Standard Script
+ </summary>
+ <param name="RecipientAddress">the Address of the recipient address</param>
+ <param name="Amount">the amount in BTC</param>
+</member>
+<member name="M:TTB.ClsOutput.#ctor(System.String,System.String,System.Double)">
+ <summary>
+ Create a ChainSwapHash Script
+ </summary>
+ <param name="ChainSwapHash">the chain swap hash to redeem the transaction output</param>
+ <param name="RecipientAddress">the Address of the recipient address</param>
+ <param name="Amount">the amount in BTC</param>
+</member>
+<member name="M:TTB.ClsOutput.#ctor(System.String,System.Double,System.Int32)">
+ <summary>
+ Create a LockTime Script
+ </summary>
+ <param name="RecipientAddress">the Address of the recipient address</param>
+ <param name="Amount">the amount in BTC</param>
+ <param name="ScriptLockTime">the optional LockTime in Blocks as integer</param>
+</member>
+<member name="M:TTB.ClsOutput.#ctor(System.String,System.String,System.String,System.Double,System.Int32)">
+ <summary>
+ Create a ChainSwapHash script with LockTime for payback option when the time is up
+ </summary>
+ <param name="RecipientAddress">the Address of the recipient address</param>
+ <param name="ChainSwapHash">the chain swap hash to redeem the transaction output</param>
+ <param name="SenderAddress">the Address of the sender address</param>
+ <param name="Amount">the amount in BTC</param>
+ <param name="ScriptLockTime">the optional LockTime in Blocks as integer</param>
+</member>
+</members>
+</doc>
