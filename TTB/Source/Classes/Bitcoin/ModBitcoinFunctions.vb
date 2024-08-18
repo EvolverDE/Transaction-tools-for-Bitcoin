@@ -269,9 +269,11 @@ Module ModBitcoinFunctions
 
         Dim Ripe160 As String = ClsBase58.DecodeBase58ToHex(Address)
 
-        If Ripe160.Trim.Length > 8 Then
-            If Shorten Then
+        If Ripe160.Trim().Length() > 40 Then
+            If BitcoinAddressPrefix <> "00" Then
                 Ripe160 = Ripe160.Substring(2)
+            End If
+            If Shorten Then
                 Ripe160 = Ripe160.Remove(Ripe160.Length - 8)
             End If
         End If
